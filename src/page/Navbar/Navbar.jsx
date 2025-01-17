@@ -28,7 +28,16 @@ const Navbar = () => {
               <NavLink to="/Card">CARD</NavLink>
             </li>
             <li className=" hover:text-red-500 cursor-pointer font-medium text-gray-500  hover:underline space-y-1">
-              <NavLink to="/Login"> LOGIN</NavLink>
+              <NavLink to="/data1"> LOGIN</NavLink>
+            </li>
+            <li className=" hover:text-red-500 cursor-pointer font-medium text-gray-500  hover:underline space-y-1">
+              <NavLink to="/data2"> LOGIN</NavLink>
+            </li>
+            <li className=" hover:text-red-500 cursor-pointer font-medium text-gray-500  hover:underline space-y-1">
+              <NavLink to="/data3"> LOGIN</NavLink>
+            </li>
+            <li className=" hover:text-red-500 cursor-pointer font-medium text-gray-500  hover:underline space-y-1">
+              <NavLink to="/data4">Dummy </NavLink>
             </li>
           </ul>
           <div className="md:hidden ">
